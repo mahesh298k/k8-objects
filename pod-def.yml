@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-name-here
+  labels:
+    type: frond-end
+    app: nginx-based
+    team: Team-1
+    department: Human-Resource
+spec:
+  containers:
+    - name: name-of-the-container-1
+      image: nginx
+
+    - name: name-of-the-container-2
+      image: tomcat
